@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-box {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    top: 45px;
+
+}
+
+.anchor {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.anchor:hover {
+    color: blue;
+}
+
+#box-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+nav {
+    height: 10vh;
+    width: 100vw;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav img {
+    height: 8rem;
+    width: 9rem;
+}
+
+.nav-child {
+    height: 100%;
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input {
+    height: 50%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.input input {
+
+    border: none;
+    height: 100%;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+.name,
+.email,
+.username,
+.password,
+.conpassword {
+    height: 1.8rem;
+    width: 10rem;
+}
+
+#register-menu input {
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+
+}
+
+#profileimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+#user-name,
+#user-email,
+#user_name {
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+#sidebar {
+    height: 10rem;
+    width: 300px;
+    background-color: black;
+    position: absolute;
+    right: -300px;
+    display: none;
+    transition: all .5s ease;
+    z-index: 10;
+
+}
+
+#sidebar ul li {
+    list-style: none;
+    height: 2rem;
+
+}
+
+#profileimg {
+    display: none;
+    margin-right: 19px;
+}
+
+#loginbtn {
+    padding: 5px 7px;
+    background-color: white;
+    border: 2px solid white;
+    font-weight: 400;
+
+}
+
+#logout {
+    padding: 5px 7px;
+    background-color: white;
+    border: 2px solid white;
+    font-weight: 400;
+    margin-right: 19px;
+    display: none;
+
+}
+
+#logout:hover {
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+}
+
+#loginbtn:hover {
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
